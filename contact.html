@@ -1,4 +1,69 @@
-<!doctype HTML>
+<!DOCTYPE html>
+<!--
+     -\-
+    \-- \-
+     \  - -\
+      \      \\
+       \       \
+        \       \\
+         \        \\
+         \          \\
+         \           \\\
+          \            \\
+           \            \\
+           \. .          \\
+            \    .       \\
+             \      .    \\
+              \       .  \\
+              \         . \\
+              \            <=)
+              \            <==)
+              \            <=)
+               \           .\\                                           _-
+               \         .   \\                                        _-//
+               \       .     \\                                     _-_/ /
+               \ . . .        \\                                 _--_/ _/
+                \              \\                              _- _/ _/
+                \               \\                      ___-(O) _/ _/
+                \                \                  __--  __   /_ /      ***********************************
+                \                 \\          ____--__----  /    \_       I AM A MOTHERFUCKING PTERODACTYL!
+                 \                  \\       -------       /   \_  \_     HERE TO PTERO-YOU A NEW ASSHOLE
+                  \                   \                  //   // \__ \_   HTTP://PTERODACTYL.ME
+                   \                   \\              //   //      \_ \_ **********************************
+                    \                   \\          ///   //          \__-
+                    \                -   \\/////////    //
+                    \            -         \_         //
+                    /        -                      //
+                   /     -                       ///
+                  /   -                       //
+             __--/                         ///
+  __________/                            // |
+//-_________      ___                ////  |
+        ____\__--/                /////    |
+   -----______    -/---________////        |
+     _______/  --/    \                   |
+   /_________-/       \                   |
+  //                  \                   /
+                       \.                 /
+                       \     .            /
+                        \       .        /
+                       \\           .    /
+                        \                /
+                        \              __|
+                        \              ==/
+                        /              //
+                        /          .  //
+                        /   .  .    //
+                       /.           /
+                      /            //
+                      /           /
+                     /          //
+                    /         //
+                 --/         /
+                /          //
+            ////         //
+         ///_________////
+       -->
 <html lang="fr">
 <head>
   <meta charset="utf-8"/>
@@ -11,6 +76,7 @@
   <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css'/>
   <link rel="stylesheet" href=css/bootstrap-elements.css>
   <link type=text/css rel=stylesheet href=css/kitty.css>
+    <link rel="icon" type="image/ico" href="img/favicon.ico" />
 </head>
 <body class="color" style="background-color:#9D9D9D">
   <div class="fixed">
@@ -93,9 +159,9 @@
 <div class="form-group">
   <label class="col-md-4 control-label">Prénom</label>
   <div class="col-md-4 inputGroupContainer">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="first_name" placeholder="Votre prénom (exemple : Sylvain)" class="form-control"  type="text">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  name="first_name" placeholder="Votre prénom (exemple : Sylvain)" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -131,7 +197,7 @@
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="06 00 00 00 00" class="form-control" type="text">
+  <input name="phone" maxlength="10" placeholder="06 00 00 00 00" class="form-control" type="text" format="NNNNNNNNNN">
     </div>
   </div>
 </div>
@@ -202,11 +268,7 @@
       <option value=" " >Êtes vous stupide?</option>
       <option>ui je sui stupid mdrrrrrrr</option>
       <option>Non,j'ai un QI de 254 et un Master en chimie</option>
-      <option>nik ta mer</option>
       <option>ISSOU</option>
-      <option>je code avec le q</option>
-      <option>EDDY MALOU</option>
-      <option>Jul.</option>
     </select>
   </div>
 </div>
@@ -218,7 +280,7 @@
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="zip" placeholder="Code postal" class="form-control"  type="text">
+  <input name="zip" maxlength="5" placeholder="Code postal" class="form-control" format="NNNNN" type="text">
     </div>
 </div>
 </div>
